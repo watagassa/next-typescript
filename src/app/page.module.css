@@ -52,7 +52,7 @@
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition:
-    background 200ms,
+    /* background 200ms, */
     border 200ms;
 }
 
@@ -187,7 +187,7 @@
       rgba(var(--callout-rgb), 0.5)
     );
     background-clip: padding-box;
-    backdrop-filter: blur(24px);
+    /* backdrop-filter: blur(24px); */
   }
 
   .description div {
